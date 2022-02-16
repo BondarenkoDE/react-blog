@@ -16,6 +16,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<h1>СТраница авторизации</h1>} />
         <Route path="/post/:id" element={<FullPost />} />
+
+        {/* Роут на страницу 404 */}
         <Route path="*" element={<h1>Страница не найдена!</h1>} />
       </Routes>
 
