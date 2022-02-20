@@ -23,3 +23,12 @@ body {
   background-color: #ffffff;
   padding: 30px;
 }
+
+.content {
+  padding: 40px 0;
+}
+
+.login-form {
+  width: 400px;
+  margin: 0 auto;
+}
